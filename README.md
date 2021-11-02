@@ -1,8 +1,8 @@
 # Front-end Dev Test
 
-In this round of the interview process you will be asked to interpret product requirements and build simple features. You will use this project repo for your development and be asked to discuss your work when finished. Requirements will be sent on the day of your scheduled test. Before your test, please familiarize yourself with this repository and make sure that you are able to follow the basic setup and run instructions.
+Dalam putaran proses interview ini Anda akan diminta untuk menginterpretasikan persyaratan produk dan membangun fitur sederhana. Anda akan menggunakan repo proyek ini untuk pengembangan Anda dan diminta untuk mendiskusikan pekerjaan Anda setelah selesai. Persyaratan akan dikirim pada hari jadwal test Anda. Sebelum test ini, harap membiasakan diri Anda dengan repositori ini dan pastikan Anda dapat mengikuti pengaturan dasar dan menjalankan instruksi.
 
-This repository contains four independent code bases:
+Repositori ini berisi empat basis kode independen:
 
 | Directory | Code Base |
 |-----------|-----------|
@@ -10,7 +10,13 @@ This repository contains four independent code bases:
 | `react`    | ReactJS |
 | `vue`      | VueJS |
 
-**Use the code base you are most comfortable with.** All of the UIs are functionally the same; they only differ in the language and frameworks used.
+**Gunakan bahasa yang paling nyaman bagi Anda.** Semua UI secara fungsional sama; mereka hanya berbeda dalam bahasa dan kerangka kerja yang digunakan.
+
+## Sebelum testing:
+
+* Klon repositori ini dan biasakan diri Anda dengan struktur proyek beserta kode dependensinya.
+* Instal dependensi dan pastikan dapat melayani aplikasi secara lokal dan menjalankan testing ini.
+* Kirim pertanyaan apa pun kepada rekruiter melalui email.
 
 ## Before your scheduled test:
 
@@ -18,36 +24,34 @@ This repository contains four independent code bases:
 * Install the dependencies and ensure you can serve the application locally and run the tests.
 * Send any questions to the recruiter via email.
 
-**Note:** Each individual code base includes its own README with documentation specific to that langauge and framework.
+**Catatan:** Setiap bahasa koding individual. disertakan README masing-masing dengan dokumentasi khusus untuk bahasa dan kerangka kerja tersebut.
 
-## During your scheduled test:
+## Selama testing Anda:
 
-* Feature requirements will be sent at the beginning of the scheduled test.
-* A WebEx/Zoom with our engineers will be setup for you to ask any questions.
-* You will have 1 hour to complete as many of the features as you can with quality.
-* At the end of the 1 hour session you will have 30 minutes to discuss your work with the engineers.
+* Persyaratan fitur akan dikirim pada awal tes terjadwal.
+* Anda akan memiliki 1 jam untuk menyelesaikan sebanyak mungkin fitur dengan kualitas.
+
 
 ## Mock backend
 
-This repository contains a mock backend that serves simple static data, which gives your API queries a legitimate target. This backend is located in the `server/` directory.
+Repositori ini berisi _mock backend_ yang menyajikan data statis sederhana, yang memberikan target query API anda. Backend ini terletak di direktori `server/`.
 
-To run the server, you must first install the following utilities:
+Untuk menjalankan server, Anda harus terlebih dahulu menginstal utilitas berikut:
 
 | Utility | Version | Link(s) |
 |------------|---------|---------|
 | Node | ~ 14.15 | [NodeJS](https://nodejs.org/en/) |
 | NPM | ^ 6.14 | [NodeJS](https://nodejs.org/en/) (bundled with NodeJS) |
 
-Then navigate to the `server` directory and run:
+Kemudian navigasikan ke direktori `server` dan jalankan:
 
 ```commandline
 npm install
 ```
-
-This will install the necessary dependencies. To start the mock server, run the following command from within the `server` directory:
+Ini akan menginstal dependensi yang diperlukan. Untuk memulai _mock server_, jalankan perintah berikut dari dalam direktori `server`:
 
 ```commandline
 npm run start
 ```
 
-You will need to leave this terminal window running in the background; the server will terminate when you exit the terminal instance.
+Anda harus membiarkan jendela terminal ini berjalan di background; server akan berhenti bila anda keluar dari terminal instance.
