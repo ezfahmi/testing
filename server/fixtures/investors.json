@@ -1,7 +1,7 @@
 {
   "investors": [
     {
-      "name": "John",
+      "name": "Johnny Depp",
       "capital": 15000,
       "stocks": [
         {
@@ -15,12 +15,12 @@
       ]
     },
     {
-      "name": "Megan",
+      "name": "Megan Trainor",
       "capital": 30000,
       "stocks": []
     },
     {
-      "name": "Dave",
+      "name": "Dave Mustaine",
       "capital": 100,
       "stocks": [
         {
