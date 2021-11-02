@@ -29,7 +29,7 @@ Repositori ini berisi empat basis kode independen:
 ## Selama testing Anda:
 
 * Persyaratan fitur akan dikirim pada awal tes terjadwal.
-* Anda akan memiliki 1 jam untuk menyelesaikan sebanyak mungkin fitur dengan kualitas.
+* Anda akan memiliki 1 jam untuk menyelesaikan sebanyak mungkin fitur.
 
 
 ## Mock backend
