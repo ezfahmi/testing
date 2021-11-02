@@ -2,15 +2,12 @@
 
 Dalam putaran proses interview ini Anda akan diminta untuk menginterpretasikan persyaratan produk dan membangun fitur sederhana. Anda akan menggunakan repo proyek ini untuk pengembangan Anda dan diminta untuk mendiskusikan pekerjaan Anda setelah selesai. Persyaratan akan dikirim pada hari jadwal test Anda. Sebelum test ini, harap membiasakan diri Anda dengan repositori ini dan pastikan Anda dapat mengikuti pengaturan dasar dan menjalankan instruksi.
 
-Repositori ini berisi empat basis kode independen:
+Repositori ini berisi :
 
 | Directory | Code Base |
 |-----------|-----------|
-| `angular` | Angular 11 |
 | `react`    | ReactJS |
-| `vue`      | VueJS |
 
-**Gunakan bahasa yang paling nyaman bagi Anda.** Semua UI secara fungsional sama; mereka hanya berbeda dalam bahasa dan kerangka kerja yang digunakan.
 
 ## Sebelum testing:
 
