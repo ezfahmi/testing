@@ -1,62 +1,58 @@
 # React Dev Test
+Sikan lihat ke [main repository README](../README.md) sebagai acuan.
 
-Please refer to the [main repository README](../README.md) for a general introduction.
+Direktori ini berisi Dev Test using React.
 
-This directory contains the Dev Test written using React.
+## Sebelum testing:
 
-## Before your scheduled test:
+* Klon repositori ini dan biasakan diri Anda dengan struktur proyek beserta kode dependensinya.
+* Instal dependensi dan pastikan Anda dapat melayani aplikasi secara lokal dan menjalankan tes.
+* Kirim pertanyaan apa pun kepada perekrut melalui email.
 
-* Clone this repository and familiarize yourself with the project structure, its dependencies and existing code.
-* Install the dependencies and ensure you can serve the application locally and run the tests.
-* Send any questions to the recruiter via email.
+## Selama testing:
 
-## During your scheduled test:
+* Anda akan memiliki 1 jam untuk menyelesaikan sebanyak mungkin fitur dengan kualitas.
 
-* Feature requirements will be sent at the beginning of the scheduled test.
-* A WebEx/Zoom with our engineers will be setup for you to ask any questions.
-* You will have 1 hour to complete as many of the features as you can with quality.
-* At the end of the 1 hour session you will have 30 minutes to discuss your work with the engineers.
-
-Feel free to change any of the existing code as part of your test.
+Jangan ragu untuk mengubah salah satu kode yang ada sebagai bagian dari pengujian Anda.
 
 ## Setup
 
-This is a React 17 project using NextJS. You will need to have the following dependencies installed:
+Ini adalah proyek React 17 menggunakan NextJS. Anda harus menginstal dependensi berikut:
 
 | Dependency | Version | Link(s) |
 |------------|---------|---------|
 | Node | ~ 14.15 | [NodeJS](https://nodejs.org/en/) |
 | NPM | ^ 6.14 | [NodeJS](https://nodejs.org/en/) (bundled with NodeJS) |
 
-Once you have these installed, navigate to the `react` directory in a terminal window and run:
+Setelah Anda menginstal ini, navigasikan ke direktori `react` di jendela terminal dan jalankan:
 
 ```commandline
 npm install
 ```
 
-This will download all dependencies and save them to the local `node_modules` directory.
+Ini akan mengunduh semua dependensi dan menyimpannya ke direktori lokal `node_modules`.
 
-Since the build process is run entirely from a terminal, there are no restrictions to what IDE or editor you can use. Feel free to use whatever editor you are most comfortable with, but make sure to add any IDE specific configuration files to the project `.gitignore` file.
+Karena proses pembuatan dijalankan sepenuhnya dari terminal, tidak ada batasan untuk IDE atau editor apa yang anda gunakan. Jangan ragu untuk menggunakan editor apa pun yang paling nyaman bagi Anda, tetapi pastikan untuk menambahkan file konfigurasi khusus IDE ke file `.gitignore` proyek.
 
 ## Mock Backend
 
-A small REST API is provided which serves some dummy test data for use in developing client-server interactions. This server can be found in the `../server` directory (one level above this one.) Instructions on how to run this mock server are included in the [main repository README](../README.md).
+REST API disediakan untuk menyajikan beberapa data uji dummy yang digunakan dalam mengembangkan interaksi klien-server. Server ini dapat ditemukan di direktori `../server` (satu tingkat di atas yang ini.) Petunjuk tentang cara menjalankan server tiruan ini disertakan di [main repository README](../README.md).
 
 ## Development server
 
-To serve the application in dev mode, run `npm run dev` after completing your setup. If successful, you will see a message indicating that the application is available at `http://localhost:4400/`. The application will automatically rebuild and reload when it detects any filesystem changes.
+Untuk melayani aplikasi dalam mode dev, jalankan `npm run dev` setelah menyelesaikan pengaturan Anda. Jika berhasil, Anda akan melihat pesan yang menunjukkan bahwa aplikasi tersedia di `http://localhost:4400/`. Aplikasi akan secara otomatis _rebuild_ dan _reload_ ketika mendeteksi perubahan sistem file apa pun.
 
-Note that this command will **not** start the mock server. You must have the mock running in a separate terminal window for the API calls to succeed. 
+Perhatikan bahwa perintah ini **tidak** akan menjalankan mock server. Anda harus menjalankan mock server di jendela terminal terpisah agar panggilan API berhasil.
 
 ## Tests
 
-This project is configured with Jest and the React Testing Library for writing tests. The tests are located in the `__tests__` directory. You can run them with the following command:
+Proyek ini dikonfigurasi dengan Jest dan React Testing Library untuk _writing test_. Tes terletak di direktori `__tests__`. Anda dapat menjalankannya dengan perintah berikut:
 
 ```
 npm test
 ```
 
-## Further help
+## Dokumentasi
 
 * [NextJS documentation](https://nextjs.org/docs)
 * [Jest documentation](https://jestjs.io/)
