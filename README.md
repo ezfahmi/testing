@@ -15,12 +15,6 @@ Repositori ini berisi :
 * Instal dependensi dan pastikan dapat melayani aplikasi secara lokal dan menjalankan testing ini.
 * Kirim pertanyaan apa pun kepada rekruiter melalui email.
 
-## Before your scheduled test:
-
-* Clone this repository and familiarize yourself with the project structure, its dependencies and existing code.
-* Install the dependencies and ensure you can serve the application locally and run the tests.
-* Send any questions to the recruiter via email.
-
 **Catatan:** Setiap bahasa koding individual. disertakan README masing-masing dengan dokumentasi khusus untuk bahasa dan kerangka kerja tersebut.
 
 ## Selama testing Anda:
